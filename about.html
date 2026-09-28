@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | ApexExchange</title>
+    <!-- Google Fonts: Figtree -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Figtree', sans-serif;
+            background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), 
+                        url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=2000&q=80') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="text-slate-100 min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-xl w-full glass-card rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-sky-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+        <div class="text-center mb-6">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-sky-500/30">
+                <i class="fa-solid fa-earth-americas text-white text-2xl"></i>
+            </div>
+            <h1 class="text-2xl font-extrabold text-white">About ApexExchange</h1>
+            <p class="text-xs text-sky-400 font-medium mt-1">Global Forex System & Remittance Estimator</p>
+        </div>
+
+        <div class="space-y-4 text-sm text-slate-300 leading-relaxed mb-8">
+            <p>
+                <strong>ApexExchange</strong> is a next-generation currency conversion platform built to provide real-time mid-market exchange rates across multiple global currencies (USD, EUR, GBP, PHP, JPY, and more).
+            </p>
+            <p>
+                Engineered with high-performance web frameworks, responsive glassmorphism UI design, and open-source financial API tracking, ApexExchange makes cross-border calculations fast and secure.
+            </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-700/50 flex justify-between items-center text-xs mb-6">
+            <span class="text-slate-400">Lead Developer:</span>
+            <strong class="text-slate-200">Adrian Aduana</strong>
+        </div>
+
+        <div class="text-center">
+            <a href="index.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-semibold hover:from-sky-600 hover:to-indigo-700 transition-all shadow-lg shadow-sky-500/20">
+                <i class="fa-solid fa-arrow-left"></i> Back to Converter
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
