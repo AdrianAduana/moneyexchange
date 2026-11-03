@@ -8,7 +8,7 @@
 
 * **Project Title**: ApexExchange: Advanced Global Currency Conversion & Financial Dashboard
 * **Author / Developer**: Adrian Cajeda Aduana
-* **Course & Program**: Elective III - Git Workshop: Basic Version Control | Bachelor of Science in Computer Engineering (BSCpE)
+* **Course & Program**: Elective III | Bachelor of Science in Computer Engineering (BSCpE)
 
 ApexExchange provides dynamic currency calculations between global currencies including USD, EUR, GBP, PHP, JPY, AUD, and CAD. The application integrates live rates via the Frankfurter Forex API while maintaining local fallback configurations (enforcing a fixed **1 USD = 63.54 PHP** rate benchmark and offline mode conversion).
 
